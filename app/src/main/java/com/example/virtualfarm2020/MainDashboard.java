@@ -22,7 +22,6 @@ public class MainDashboard extends AppCompatActivity {
         //Welcome Notification
 
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "virtual_farm")
-
                 .setContentTitle("Welcome")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
